@@ -1,4 +1,4 @@
 # mini-projects
 
-<h6>Test out the projects!</h6>
-[Etchy](http://etchy.mikejferguson.com/)
+<h5>Test out the projects!</h5>
+<h6>Etchy</h6>http://etchy.mikejferguson.com/
