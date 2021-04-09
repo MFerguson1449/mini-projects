@@ -1,4 +1,8 @@
 # mini-projects
-
-Test out the projects!
-<h3>Etchy</h3>http://etchy.mikejferguson.com/
+## Etchy
+> A simple etch-a-sketch game!  
+ http://etchy.mikejferguson.com/  
+ 
+## WoW Trivia
+> A World of Warcraft trivia game!  
+ http://trivia.mikejferguson.com/  
