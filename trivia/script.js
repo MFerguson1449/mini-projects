@@ -100,7 +100,7 @@ const questions = [
          { text: 'Ironfoe', correct: false },
          { text: 'Pendulum of Doom', correct: false },
          { text: 'The One Ring', correct: false },
-         { text: 'Talisan of Binding Shard', correct: true }
+         { text: 'Talisman of Binding Shard', correct: true }
       ]
    },
    {
@@ -124,7 +124,7 @@ const questions = [
    {
       question: 'Whos is the God of the Hunt',
       answers: [
-         { text: 'Akunda', correct: true },
+         { text: 'Akunda', correct: false },
          { text: 'Rexxar', correct: false },
          { text: 'Rezan', correct: true },
          { text: 'Glirin', correct: false }

@@ -8,11 +8,12 @@
    --hue-neutral: 200;
    --hue-wrong: 0;
    --hue-correct: 145;
+   --border-hue-main: 350;
 }
 
 
 body {
-   --hue: var(--hue-neutral);
+   --hue: var(--hue-wrong);
    padding: 0;
    margin: 0;
    display: flex;
@@ -20,7 +21,8 @@ body {
    align-items: center;
    width: 100vw;
    height: 100vh;
-   background-color: hsl(var(--hue), 100%, 20%);
+   background-color: hsl(var(--hue), 0%, 5%);
+   color: white;
 }
 
 body.correct {
@@ -34,10 +36,9 @@ body.wrong {
 .container {
    width: 800px;
    max-width: 80%;
-   background-color: white;
-   border-radius: 5px;
-   padding: 10px;
-   box-shadow: 0 0 10px 2px;
+   background-color: hsl(var(--hue), 0%, 11%);
+   padding: 30px 20px;
+   border: 4px solid #C41F3B;
 }
 
 .btn-grid {
@@ -48,10 +49,10 @@ body.wrong {
 }
 
 .btn {
+   --border-hue: var(--border-hue-main);
    --hue: var(--hue-neutral);
-   background-color: hsl(var(--hue), 100%, 50%);
-   border: 2px solid hsl(var(--hue), 100%, 30%);
-   border-radius: 5px;
+   background-color: hsl(var(--hue), 0%, 30%);
+   border: 1px solid hsl(var(--border-hue), 73%, 45%);
    padding: 5px 10px;
    color: white;
    outline: none;
@@ -62,12 +63,16 @@ body.wrong {
 }
 
 .btn.correct {
+   background-color: hsl(var(--hue), 50%, 40%);
+   border: 2px solid hsl(var(--hue), 0%, 20%);
    --hue: var(--hue-correct);
    color: black;
 }
 
 .btn.wrong {
    --hue: var(--hue-wrong);
+   background-color: hsl(var(--hue), 50%, 40%);
+   border: 2px solid hsl(var(--hue), 0%, 20%);
 }
 
 #start-btn, #next-btn {
