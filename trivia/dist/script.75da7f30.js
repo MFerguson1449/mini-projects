@@ -274,33 +274,33 @@ var questions = [{
     correct: false
   }]
 }, {
-  question: 'Who is the Loa of Theives?',
+  question: 'What was Varian Wrynn\'s wifes name?',
   answers: [{
-    text: 'Sseratus',
+    text: 'Karandra',
     correct: false
   }, {
-    text: 'Rezan',
+    text: 'Valeera',
     correct: false
   }, {
-    text: 'Hakkar',
+    text: 'Tiffin',
     correct: false
   }, {
-    text: 'Jani',
-    correct: true
+    text: 'Aggra',
+    correct: false
   }]
 }, {
-  question: 'Whos is the God of the Hunt',
+  question: 'Who was Jaina Proudmoore\'s mentor in the Kirin Tor?',
   answers: [{
-    text: 'Akunda',
+    text: 'Rhonin',
     correct: false
   }, {
-    text: 'Rexxar',
+    text: 'Medivh',
     correct: false
   }, {
-    text: 'Rezan',
+    text: 'Antonidas',
     correct: true
   }, {
-    text: 'Glirin',
+    text: 'Aegwynn',
     correct: false
   }]
 }];
@@ -332,7 +332,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51773" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49938" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

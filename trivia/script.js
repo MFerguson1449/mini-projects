@@ -113,21 +113,21 @@ const questions = [
       ]
    },
    {
-      question: 'Who is the Loa of Theives?',
+      question: 'What was Varian Wrynn\'s wifes name?',
       answers: [
-         { text: 'Sseratus', correct: false },
-         { text: 'Rezan', correct: false },
-         { text: 'Hakkar', correct: false },
-         { text: 'Jani', correct: true }
+         { text: 'Karandra', correct: false },
+         { text: 'Valeera', correct: false },
+         { text: 'Tiffin', correct: false },
+         { text: 'Aggra', correct: false }
       ]
    },
    {
-      question: 'Whos is the God of the Hunt',
+      question: 'Who was Jaina Proudmoore\'s mentor in the Kirin Tor?',
       answers: [
-         { text: 'Akunda', correct: false },
-         { text: 'Rexxar', correct: false },
-         { text: 'Rezan', correct: true },
-         { text: 'Glirin', correct: false }
+         { text: 'Rhonin', correct: false },
+         { text: 'Medivh', correct: false },
+         { text: 'Antonidas', correct: true },
+         { text: 'Aegwynn', correct: false }
       ]
    },
 ]
