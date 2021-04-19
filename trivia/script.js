@@ -117,7 +117,7 @@ const questions = [
       answers: [
          { text: 'Karandra', correct: false },
          { text: 'Valeera', correct: false },
-         { text: 'Tiffin', correct: false },
+         { text: 'Tiffin', correct: true },
          { text: 'Aggra', correct: false }
       ]
    },
