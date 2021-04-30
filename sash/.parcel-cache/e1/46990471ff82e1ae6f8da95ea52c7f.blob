@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="539abc1e3d5b56670377ec75d37edaec">
+    <title>Soul Ash Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <!-- !Calculator Frame Start! -->
+        <div id="calculatorFrame">
+            <div class="itemChoiceGroup">
+                <h2>Current Item Level</h2>
+                <div class="buttonGroup currentiLevelButtonGroup">
+                    <button class="currentiLevelButton calculatorButton currentlySelectedButton">None</button>
+                    <button data-soulashcost="1250" class="currentiLevelButton calculatorButton">190</button>
+                    <button data-soulashcost="2000" class="currentiLevelButton calculatorButton">210</button>
+                    <button data-soulashcost="3200" class="currentiLevelButton calculatorButton">235</button>
+                    <button data-soulashcost="5150" class="currentiLevelButton calculatorButton">225</button>
+                </div>
+            </div>
+            <div class="itemChoiceGroup">
+                <h2>Desired Item Level</h2>
+                <div class="buttonGroup desirediLevelButtonGroup">
+                    <button data-soulashcost="1250" class="desirediLevelButton calculatorButton">190</button>
+                    <button data-soulashcost="2000" class="desirediLevelButton calculatorButton">210</button>
+                    <button data-soulashcost="3200" class="desirediLevelButton calculatorButton">235</button>
+                    <button data-soulashcost="5150" class="desirediLevelButton calculatorButton">225</button>
+                </div>
+            </div>
+            <div class="soulAshNeeded">
+                
+            </div>
+        </div>
+        <!-- !Calculator Frame End! -->
+    </div>
+
+    <script src="652a339bb3ccdbc518ea249435aae1c3"></script>
+</body>
+</html>

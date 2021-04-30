@@ -1,0 +1,103 @@
+html {
+  font-size: 10px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *:before, *:after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+#main {
+  background: url(../img/torghast.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 12.8px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 31.25px;
+}
+
+h1 {
+  font-size: 39.06px;
+  font-weight: 600;
+}
+
+#calculatorFrame {
+  position: relative;
+  bottom: 15%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#calculatorFrame .itemChoiceGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+#calculatorFrame .buttonGroup {
+  padding: 20px;
+  display: grid;
+  grid-gap: 30px;
+  justify-content: space-evenly;
+}
+#calculatorFrame .currentiLevelButtonGroup {
+  grid-template-columns: repeat(5, auto);
+}
+#calculatorFrame .desirediLevelButtonGroup {
+  grid-template-columns: repeat(4, auto);
+}
+#calculatorFrame .calculatorButton {
+  border: 3px solid white;
+  padding: 4px 12px;
+  background: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+#calculatorFrame .currentlySelectedButton {
+  border: 3px solid #C41F3B;
+  color: #C41F3B;
+  font-weight: 700;
+}
+#calculatorFrame .soulAshNeeded {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20%;
+}
+#calculatorFrame .soulAshNeeded img {
+  border-radius: 5px;
+}

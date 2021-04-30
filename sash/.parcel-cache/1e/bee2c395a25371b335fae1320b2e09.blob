@@ -1,0 +1,17 @@
+const calculatorButtons = document.querySelectorAll('.calculatorButton');
+
+calculatorButtons.forEach((calculatorButton) => {
+    calculatorButton.addEventListener('click', selectButton);
+});
+
+function selectButton(e) {
+    clearButton(e);
+    let selectedButton = e.target;
+    selectedButton.classList.add('currentlySelectedButton');
+};
+
+function clearButton(e) {
+    if(e.target.classList.contains('.currentiLevelButton')) {
+        selectedButton.classList.remove('.currentlySelectedButton')
+    };
+};

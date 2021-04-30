@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/index.HASH_REF_16cd55c95d5e729c739260c38f1b7f79.css">
+    <title>Soul Ash Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <!-- !Calculator Frame Start! -->
+        <div id="calculatorFrame">
+            <div class="itemChoiceGroup">
+                <h2>Current Item Level</h2>
+                <div class="buttonGroup currentiLevelGroup">
+                    <button class="currentiLevelButton calculatorButton">None</button>
+                    <button class="currentiLevelButton calculatorButton">190</button>
+                    <button class="currentiLevelButton calculatorButton">210</button>
+                    <button class="currentiLevelButton calculatorButton">235</button>
+                    <button class="currentiLevelButton calculatorButton">225</button>
+                </div>
+            </div>
+            <div class="itemChoiceGroup">
+                <h2>Desired Item Level</h2>
+                <div class="buttonGroup desirediLevelButtonGro">
+                    <button class="desirediLevelButton calculatorButton">190</button>
+                    <button class="desirediLevelButton calculatorButton">210</button>
+                    <button class="desirediLevelButton calculatorButton">235</button>
+                    <button class="desirediLevelButton calculatorButton">225</button>
+                </div>
+            </div>
+        </div>
+        <!-- !Calculator Frame End! -->
+    </div>
+
+    <script src="/index.HASH_REF_d231a23f43d60e28ed500b93b4f5078c.js"></script>
+</body>
+</html>

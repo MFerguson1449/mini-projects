@@ -1,0 +1,9 @@
+const calculatorButton = document.querySelector('.calculatorButton');
+
+calculatorButton.addEventListener('click', function() {
+    console.log(calculatorButton.innerHTML)
+})
+
+function selectButton() {
+    console.log(calculatorButton.innerHTML)
+}

@@ -1,0 +1,42 @@
+const calculatorButtons = document.querySelectorAll('.calculatorButton');
+const currentiLevelButtons = document.querySelectorAll('.currentiLevelButton');
+const desirediLevelButtons = document.querySelectorAll('.desirediLevelButton');
+
+calculatorButtons.forEach((calculatorButton) => {
+    calculatorButton.addEventListener('click', selectButton);
+});
+
+function selectButton(e) {
+    clearButton(e);
+    const selectedButton = e.target;
+    selectedButton.classList.add('currentlySelectedButton');
+
+    // !Add selection to variables to calculate cost
+    if(e.target.classList.contains('currentiLevelButton')) {
+     const currentiLevelSelection = e.target;
+     console.log(currentiLevelSelection.dataset.soulashcost);
+    } else {
+        const desirediLevelSelection = e.target;
+        console.log(currentiLevelSelection.dataset.soulashcost);
+    }
+};
+
+function clearButton(e) {
+    if(e.target.classList.contains('currentiLevelButton')) {
+        currentiLevelButtons.forEach((currentiLevelButton) => {
+            currentiLevelButton.classList.remove('currentlySelectedButton')
+        });
+    } else {
+        desirediLevelButtons.forEach((desirediLevelButton) => {
+            desirediLevelButton.classList.remove('currentlySelectedButton')
+        });
+    };
+};
+
+// !Soul Ash Calculation! //
+function calculateCost() {
+    const currentiLevelSelection;
+    const desirediLevelSelection; //TODO - Variable for each selected value (Check parent class?)
+    const soulAshCost = desirediLevelSelection - currentiLevelSelection;
+    return soulAshCost;
+}
